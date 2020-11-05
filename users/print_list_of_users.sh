@@ -1,3 +1,4 @@
+args="\targs\n\tcount\n\tusers"
 if [ $# -eq 0 ]
 then
 	cat /etc/passwd
@@ -8,7 +9,6 @@ elif [ $1 == 'count' ]
 then
 	getent passwd | wc -l
 else
-	echo -e "Arg not recognized, try :"
-	echo -e "\tusers\n"
-	echo -e "\tcount\n"
+	echo -e "arg not recognized, try :"
+	echo -e $args
 fi

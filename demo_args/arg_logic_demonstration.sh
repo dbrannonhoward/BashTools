@@ -1,4 +1,3 @@
-arg=$1
 if [ $# -eq 0 ]
 then
 	echo "no args provided"
@@ -7,9 +6,9 @@ then
 	echo "empty string used as arg"
 elif [ $arg == "match" ]
 then
-	echo -e "exact argument detected :"
-	echo -e "\t$arg"
+	echo "exact argument detected :"
+	echo -e "\t$1"
 else
-	echo -e "unhandled argument detected :"
-	echo -e "\t$arg"
+	echo "unhandled argument detected :"
+	echo -e "\t$1"
 fi

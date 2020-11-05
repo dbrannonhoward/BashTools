@@ -1,4 +1,5 @@
-temp=installed.txt
+args="\tnames\n\t"
+temp=deleteme #TODO
 if [ $# -eq 0 ]
 then
 	apt list --installed
@@ -9,6 +10,6 @@ then
 	awk -F'/' '{ print $1 }' ./$temp
 	rm ./$temp
 else
-	echo -e "argument not recognized, try : "
-	echo -e "\tnames"
+	echo "argument not recognized, try : "
+	echo -e $args
 fi
