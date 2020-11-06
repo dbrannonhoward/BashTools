@@ -18,7 +18,6 @@ read_webpage.sh(src/text) -> web
 repair_disk.sh -> disk_diagnostic
 replace_text_in_file.sh -> fileio
 search_for.sh -> search
-ssh_to -> remote
 unmount_drive.sh -> diskio
 write_to_file.sh -> fileio
 write_to_serial_port.sh -> gpio
