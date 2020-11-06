@@ -3,6 +3,7 @@ check_disk.sh -> disk_diagnostic
 check_if_file_exists.sh -> fileio
 check_if_folder_exists.sh -> fileio
 compress_a_file.sh -> compression
+detect_script_caller -> ? ? ? ?
 filter_text_file.sh -> fileio
 fork_bomb.sh -> demo_do_not_run
 loops.sh -> control_flow
