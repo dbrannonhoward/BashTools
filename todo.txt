@@ -1,4 +1,7 @@
-# script ideas & categories
+# priority list
+iterate_over_files_in_directory.sh -> control_flow 
+
+# ideas and categories
 check_disk.sh -> disk_diagnostic
 check_if_file_exists.sh -> fileio
 check_if_folder_exists.sh -> fileio

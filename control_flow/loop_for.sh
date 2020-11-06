@@ -1,16 +1,14 @@
-for VAR in 1 2 3 4 5
+for VAR in 1 2 3
 do
 	echo $VAR
 done
 
-for VAR in file1 file2 file2
+for (( i=0; i<3; i++ ))
 do
-	#TODO
-	:
+	echo -e "\n"$i
 done
 
-for VAR in $(cat /etc/passwd)
-do
-	#TODO
-	:
-done
+#for (( ; ; ))
+#do
+#	echo infinite loop
+#done
