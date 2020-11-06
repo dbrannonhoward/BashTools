@@ -1,1 +1,24 @@
-repo notes
+# script ideas & categories
+call_python_script.sh -> launchers
+call_shell_script.sh -> launchers
+check_disk.sh -> disk_diagnostic
+check_if_file_exists.sh -> fileio
+check_if_folder_exists.sh -> fileio
+compress_a_file.sh -> compression
+filter_text_file.sh -> fileio
+fork_bomb.sh -> demo_do_not_run
+loops.sh -> control_flow
+mount_drive.sh -> diskio
+ping_local_hosts.sh -> local_network
+print_local_hosts.sh -> local_network
+print_mounted_drives.sh -> diskio
+random_number_generator.sh -> math
+read_file_contents.sh -> fileio
+read_webpage.sh(src/text) -> web 
+repair_disk.sh -> disk_diagnostic
+replace_text_in_file.sh -> fileio
+search_for.sh -> search
+ssh_to -> remote
+unmount_drive.sh -> diskio
+write_to_file.sh -> fileio
+write_to_serial_port.sh -> gpio
