@@ -1,6 +1,7 @@
 # priority list
+check_arg_type -> demo_args
 iterate_over_files_in_directory.sh -> control_flow 
-print_local_hosts.sh -> local_network
+print_local_hosts.sh -> local_net
 read_file_contents.sh -> fileio
 
 # ideas and categories
@@ -11,8 +12,9 @@ compress_a_file.sh -> compression
 detect_script_caller -> ? ? ? ?
 filter_text_file.sh -> fileio
 fork_bomb.sh -> demo_do_not_run
+monitor_network_connections -> sec
 mount_drive.sh -> diskio
-ping_local_hosts.sh -> local_network
+ping_local_hosts.sh -> local_net
 print_disk_usage.sh -> diskio
 print_mounted_drives.sh -> diskio
 random_number_generator.sh -> math
@@ -21,6 +23,9 @@ repair_disk.sh -> disk_diagnostic
 replace_text_in_file.sh -> fileio
 return_bool_to_conditional.sh -> control_flow
 search_for.sh -> search
+temperature_data.sh -> sysinfo
 unmount_drive.sh -> diskio
+wake_local_host.sh -> local_net
+weather_data.sh -> ??
 write_to_file.sh -> fileio
 write_to_serial_port.sh -> gpio
