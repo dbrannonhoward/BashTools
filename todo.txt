@@ -1,6 +1,7 @@
 # priority list
 iterate_over_files_in_directory.sh -> control_flow 
 print_local_hosts.sh -> local_network
+read_file_contents.sh -> fileio
 
 # ideas and categories
 check_disk.sh -> disk_diagnostic
@@ -15,7 +16,6 @@ ping_local_hosts.sh -> local_network
 print_disk_usage.sh -> diskio
 print_mounted_drives.sh -> diskio
 random_number_generator.sh -> math
-read_file_contents.sh -> fileio
 read_webpage.sh(src/text) -> web 
 repair_disk.sh -> disk_diagnostic
 replace_text_in_file.sh -> fileio
