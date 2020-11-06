@@ -1,5 +1,4 @@
 # script ideas & categories
-call_python_script.sh -> launchers
 check_disk.sh -> disk_diagnostic
 check_if_file_exists.sh -> fileio
 check_if_folder_exists.sh -> fileio
@@ -9,6 +8,7 @@ fork_bomb.sh -> demo_do_not_run
 loops.sh -> control_flow
 mount_drive.sh -> diskio
 ping_local_hosts.sh -> local_network
+print_disk_usage.sh -> diskio
 print_local_hosts.sh -> local_network
 print_mounted_drives.sh -> diskio
 random_number_generator.sh -> math
@@ -16,7 +16,11 @@ read_file_contents.sh -> fileio
 read_webpage.sh(src/text) -> web 
 repair_disk.sh -> disk_diagnostic
 replace_text_in_file.sh -> fileio
+return_bool_to_conditional.sh -> control_flow
 search_for.sh -> search
 unmount_drive.sh -> diskio
 write_to_file.sh -> fileio
 write_to_serial_port.sh -> gpio
+
+# issues
+relative directory calls are probably wrong
