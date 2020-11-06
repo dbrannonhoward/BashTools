@@ -1,6 +1,5 @@
 # script ideas & categories
 call_python_script.sh -> launchers
-call_shell_script.sh -> launchers
 check_disk.sh -> disk_diagnostic
 check_if_file_exists.sh -> fileio
 check_if_folder_exists.sh -> fileio
