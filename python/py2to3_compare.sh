@@ -1,4 +1,9 @@
 #!/bin/bash
+echo "executing p2 filter"
+./p2_builtin_filter.py
+echo "executing p3 filter"
+./p3_builtin_filter.py
+
 echo "executing p2 map"
 ./p2_builtin_map.py
 echo "executing p3 map"
