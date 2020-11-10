@@ -1,3 +1,4 @@
+#!/bin/bash
 append_to_array () {
 	l_var=$1
 	echo "array[@] : "${l_var[@]}

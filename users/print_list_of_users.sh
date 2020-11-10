@@ -1,3 +1,4 @@
+#!/bin/bash
 args="\targs\n\tcount\n\tusers"
 if [ $# -eq 0 ]
 then

@@ -30,3 +30,47 @@ write_to_serial_port.sh -> gpio
 bash functions can only return integers 0-255
 check_arg_type -> demo_args
 	type as a concept in bash seems to mostly just be regex
+./appinfo/
+	accomplish this project without writing to disk
+./common/
+	the idea was to stop re-writing the bad_args function
+./control_flow/
+	add recursive depth ability
+./demo_args/
+	examples of how args can be used
+./demo_fileio/
+	example of rsync with vars
+./demo_function/
+	examples of ways to declare a function
+./demo_math/
+	example of how to sum with a function
+./demo_operators/
+	examples for appending array, integer, string values
+./demo_variable/
+	examples of variable scope
+./fileio/
+	functional rsync wrapper
+	bug : cannot handle expansions
+./installers/
+	copy / paste, TODO
+./interactive/
+	examples of reading user input
+./launchers/
+	examples of scripts calling scripts
+	some projects are broken due to relative path
+./local_net/
+	empty, TODO with nmap
+./mouse/
+	broken, TODO setting changes nothing
+./network/
+	functional nordvpn wrapper, status loop
+./osinfo/
+	functional, print user home dir
+./python/
+	various
+./ssh/
+	pointless TODO get more creative
+	tunnels?
+./users/
+	TODO fix max condition
+

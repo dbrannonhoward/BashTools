@@ -1,3 +1,4 @@
+#!/bin/bash
 args="\tnames\n\t"
 temp=deleteme #TODO
 if [ $# -eq 0 ]

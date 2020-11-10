@@ -1,3 +1,4 @@
+#!/bin/bash
 args="-uvah --stats --progress"
 if [ $# -eq 2 ]
 then
