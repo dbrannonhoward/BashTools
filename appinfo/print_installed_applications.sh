@@ -13,3 +13,4 @@ else
 	echo "argument not recognized, try : "
 	echo -e $args
 fi
+echo -e "\n\navailable args : \n"$args
