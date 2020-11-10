@@ -1,0 +1,11 @@
+# extensions to ignore
+
+# files to ignore
+#.gitignore
+danger_*_edit.sh
+lazy_*_edit.sh
+
+# folders to ignore
+SANDBOX/
+
+
