@@ -2,6 +2,7 @@
 check_arg_type -> demo_args
 iterate_over_files_in_directory.sh -> control_flow 
 print_local_hosts.sh -> local_net
+python2to3_builtins_comparison.sh -> python
 read_file_contents.sh -> fileio
 
 # ideas and categories
