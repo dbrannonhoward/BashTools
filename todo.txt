@@ -2,7 +2,6 @@
 check_arg_type -> demo_args
 iterate_over_files_in_directory.sh -> control_flow 
 print_local_hosts.sh -> local_net
-python2to3_builtins_comparison.sh -> python
 read_file_contents.sh -> fileio
 
 # ideas and categories
@@ -30,3 +29,6 @@ wake_local_host.sh -> local_net
 weather_data.sh -> ??
 write_to_file.sh -> fileio
 write_to_serial_port.sh -> gpio
+
+# sub-categories
+
