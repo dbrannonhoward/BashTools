@@ -1,4 +1,7 @@
 Command			Description
+&			Start a new process in the background
+.			Run a command script in the current shell
+###			Comment / Remark
 accept			Accept or Reject jobs to a destination, such as a printer.
 access			Check a user’s RWX permission for a file.
 aclocal			GNU autoconf too
