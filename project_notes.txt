@@ -1,35 +1,4 @@
-# priority list
-iterate_over_files_in_directory.sh -> control_flow 
-print_local_hosts.sh -> local_net
-read_file_contents.sh -> fileio
-replace_text_in_file.sh -> fileio
-
-# ideas and categories
-check_disk.sh -> disk_diagnostic
-check_if_file_exists.sh -> fileio
-check_if_folder_exists.sh -> fileio
-compress_a_file.sh -> compression
-detect_script_caller -> ? ? ? ?
-filter_text_file.sh -> fileio
-fork_bomb.sh -> demo_do_not_run
-monitor_network_connections -> sec
-mount_drive.sh -> diskio
-print_mounted_drives.sh -> diskio
-random_number_generator.sh -> math
-read_webpage.sh(src/text) -> web 
-repair_disk.sh -> disk_diagnostic
-search_for.sh -> search
-temperature_data.sh -> sysinfo
-unmount_drive.sh -> diskio
-wake_local_host.sh -> local_net
-weather_data.sh -> ??
-write_to_file.sh -> fileio
-write_to_serial_port.sh -> gpio
-
-# things to remember
-bash functions can only return integers 0-255
-check_arg_type -> demo_args
-	type as a concept in bash seems to mostly just be regex
+# folder notes
 ./appinfo/
 	accomplish this project without writing to disk
 ./common/
@@ -51,6 +20,7 @@ check_arg_type -> demo_args
 ./fileio/
 	functional rsync wrapper
 	bug : cannot handle expansions
+	TODO read_file_by_line.sh
 ./installers/
 	copy / paste, TODO
 ./interactive/
@@ -74,3 +44,30 @@ check_arg_type -> demo_args
 ./users/
 	TODO fix max condition
 
+# priority list
+iterate_over_files_in_directory.sh -> control_flow 
+print_local_hosts.sh -> local_net
+read_file_contents.sh -> fileio
+read_webpage.sh(src/text) -> web 
+replace_text_in_file.sh -> fileio
+
+# ideas and categories
+check_disk.sh -> disk_diagnostic
+check_if_file_exists.sh -> fileio
+check_if_folder_exists.sh -> fileio
+compress_a_file.sh -> compression
+detect_script_caller -> ? ? ? ?
+filter_text_file.sh -> fileio
+fork_bomb.sh -> demo_do_not_run
+monitor_network_connections -> sec
+mount_drive.sh -> diskio
+print_mounted_drives.sh -> diskio
+random_number_generator.sh -> math
+repair_disk.sh -> disk_diagnostic
+search_for.sh -> search
+temperature_data.sh -> sysinfo
+unmount_drive.sh -> diskio
+wake_local_host.sh -> local_net
+weather_data.sh -> ??
+write_to_file.sh -> fileio
+write_to_serial_port.sh -> gpio
