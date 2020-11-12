@@ -20,29 +20,33 @@
 ./fileio/
 	functional rsync wrapper
 	bug : cannot handle expansions
-	TODO read_file_by_line.sh
+	TODO, read_file_by_line.sh
 ./installers/
-	copy / paste, TODO
+	TODO, copy / paste
 ./interactive/
 	examples of reading user input
 ./launchers/
 	examples of scripts calling scripts
 	some projects are broken due to relative path
 ./local_net/
-	empty, TODO with nmap
+	TODO, empty, with nmap
 ./mouse/
-	broken, TODO setting changes nothing
+	TODO, broken, setting changes nothing
 ./network/
 	functional nordvpn wrapper, status loop
 ./osinfo/
 	functional, print user home dir
+./ppainfo/
+	TODO, some cleanup from strings, code breakdown
 ./python/
 	various
+./search/
+	TODO, find scripts
 ./ssh/
-	pointless TODO get more creative
+	TODO, pointless get more creative
 	tunnels?
 ./users/
-	TODO fix max condition
+	TODO, fix max condition
 
 # priority list
 iterate_over_files_in_directory.sh -> control_flow 
