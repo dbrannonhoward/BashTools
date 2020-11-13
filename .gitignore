@@ -6,6 +6,7 @@ danger_*_edit.sh
 lazy_*_edit.sh
 
 # folders to ignore
+demo_args/files
 SANDBOX/
 
 
