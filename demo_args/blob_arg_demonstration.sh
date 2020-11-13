@@ -10,7 +10,7 @@ then
 	echo "exact argument detected :"
 	echo -e "\t$1"
 else
-	for ARG in $@; do
+	for ARG in "$@"; do
 		echo "unhandled argument detected :"
 		echo -e "\t$ARG"
 	done
