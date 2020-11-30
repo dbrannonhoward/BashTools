@@ -1,4 +1,2 @@
 # BashTools
-helpful bash scripts for self-education &amp; productivity
-
-i create arbitrary tools in order to increase my fluency & familiarity with shell scripting syntax
+a playground where i learn bash but mostly rename things
