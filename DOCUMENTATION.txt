@@ -21,6 +21,8 @@
 	functional rsync wrapper
 	bug : cannot handle expansions
 	TODO, read_file_by_line.sh
+./git/
+	scripts related to git
 ./installers/
 	TODO, copy / paste
 ./interactive/
