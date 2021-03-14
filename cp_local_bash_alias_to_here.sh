@@ -1,4 +1,3 @@
 #!/bin/bash
-cp ~/.bash_aliases ./bash_aliases_merge_me_now.txt
-clear
+cat ~/.bash_aliases >> ./bash_aliases
 ls -hl | grep alias
