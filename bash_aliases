@@ -2,7 +2,6 @@
 # nudge theory self-ping ~/.bash_aliases					#
 alias 'make! more! aliases!=hey, welcome back'					#
 ########################################X########################################
-#										#
 #				  G L O B A L S					#
 home='~/'									#
 #										#
@@ -11,13 +10,15 @@ path_ba=$home'project_ba/'							#
 path_py=$home'project_py/'							#
 #										#
 proj_ba=$path_ba'bash_tools/'							#
-########################################X########################################
 #										#
+proj_py_qb=$path_py'qbit_tools'							#
+########################################X########################################
 #				  A L I A S E S 				#
 # cd										#
 alias go2='less '$this' | grep go2'						#
 alias go2ba='cd '$path_ba							#
 alias go2py='cd '$path_py							#
+alias go2qb='cd '$proj_py_qb							#
 # git										#
 alias cgs='clear && git status'							#
 alias gca='git config --list --show-origin'					#
