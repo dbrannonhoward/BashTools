@@ -1,5 +1,5 @@
 #!/bin/bash
-home="~/"
+home="$(getent passwd $USER | awk -F ':' '{print $6}')/"
 bash=$home".bash_aliases"
 if [ -f $bash ]
 then
