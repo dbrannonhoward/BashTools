@@ -25,6 +25,7 @@ alias cgs="clear && git status"							#
 alias gca="git config --list --show-origin"					#
 alias gcga="git config --global --list --show-origin"				#
 alias gdog="git log --all --decorate --oneline --graph"				#
+alias gfsb="clear && git fetch && git status && git branch"			#
 # ls										#
 alias clh="clear && ls -hl"							#
 alias laa="ls -hal"								#
