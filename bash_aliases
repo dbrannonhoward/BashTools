@@ -12,7 +12,6 @@ path_py=$home"project_py/"							#
 proj_ba=$path_ba"bash_tools/"							#
 #										#
 proj_py_qb=$path_py"qbit_tools"							#
-#				  G L O B A L S					#
 ########################################X########################################
 #				  A L I A S E S 				#
 # cd										#
@@ -21,6 +20,7 @@ alias go2ba="cd "$path_ba							#
 alias go2py="cd "$path_py							#
 alias go2qb="cd "$proj_py_qb							#
 # git										#
+alias cgd="clear && git status && git diff"					#
 alias cgs="clear && git status"							#
 alias gca="git config --list --show-origin"					#
 alias gcga="git config --global --list --show-origin"				#
@@ -32,10 +32,11 @@ alias laa="ls -hal"								#
 alias lhl="ls -hl"								#
 # system									#
 alias c="clear"									#
-alias e="exit"									#
 alias f="nemo ."								#
+alias e="exit"									#
 # vim										#
 alias forgot="less "$this							#
 alias lazy="vim "$this								#
-#				  A L I A S E S 				#
+#										#
 ########################################X########################################
+
