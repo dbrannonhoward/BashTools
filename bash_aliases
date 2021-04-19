@@ -11,13 +11,17 @@ path_py=$home"project_py/"							#
 #										#
 proj_ba=$path_ba"bash_tools/"							#
 #										#
+proj_py_dm=$path_py"data_merger"						#
 proj_py_qb=$path_py"qbit_tools"							#
+#				  G L O B A L S					#
 ########################################X########################################
 #				  A L I A S E S 				#
 # cd										#
 alias go2="less "$this" | grep go2"						#
 alias go2ba="cd "$path_ba							#
 alias go2py="cd "$path_py							#
+# cd py										#
+alias go2dm="cd "$proj_py_dm							#
 alias go2qb="cd "$proj_py_qb							#
 # git										#
 alias cgd="clear && git status && git diff"					#
@@ -37,6 +41,6 @@ alias e="exit"									#
 # vim										#
 alias forgot="less "$this							#
 alias lazy="vim "$this								#
-#										#
+#				  A L I A S E S 				#
 ########################################X########################################
 
