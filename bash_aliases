@@ -38,6 +38,7 @@ alias lhl="ls -hl"								#
 alias c="clear"									#
 alias f="nemo ."								#
 alias e="exit"									#
+alias rbt="systemctl reboot -i"
 # vim										#
 alias forgot="less "$this							#
 alias lazy="vim "$this								#
