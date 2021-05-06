@@ -1,7 +1,6 @@
 ########################################X########################################
 # nudge theory self-ping ~/.bash_aliases					#
 alias "make! more! aliases!=hey, welcome back"					#
-alias 'reno 911 dummy'								#
 ########################################X########################################
 #				  G L O B A L S					#
 home="~/"									#
@@ -20,9 +19,8 @@ proj_py_qb=$path_py"qbit_tools"							#
 # cd										#
 alias go2="less "$this" | grep go2"						#
 alias go2ba="cd "$path_ba							#
-alias go2py="cd "$path_py							#
-alias go2qb='cd '$proj_py_qb							#
 # cd py										#
+alias go2py="cd "$path_py							#
 alias go2dm="cd "$proj_py_dm							#
 alias go2qb="cd "$proj_py_qb							#
 # git										#
@@ -40,12 +38,11 @@ alias lhl="ls -hl"								#
 alias venvqb='source venv/bin/activate'						#
 # system									#
 alias c="clear"									#
-alias f="nemo ."								#
 alias e="exit"									#
+alias f="nemo ."								#
 alias rbt="systemctl reboot -i"							#
 # vim										#
 alias forgot="less "$this							#
 alias lazy="vim "$this								#
 #				  A L I A S E S 				#
 ########################################X########################################
-
