@@ -1,8 +1,6 @@
 ########################################X########################################
 # auto run start								#
 echo "this terminal opened at "$(date)						#
-echo "make more aliases dummy, also welcome back"				#
-echo "reno 911 seems funny"							#
 # auto run end									#
 ########################################X########################################
 #				  G L O B A L S					#
