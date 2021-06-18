@@ -7,7 +7,9 @@ clear
 
 announce() {
   local section=${1:?must provide a section argument}
-  read -n 1 -p "the next section is $section, press enter to continue"}
+  echo -e "\n"
+  read -n 1 -p "the next section is $section, press enter to continue"
+}
 
 # topic, example :
 #   1. declare section=NAME
@@ -16,8 +18,12 @@ announce() {
 #   4. demonstrate syntax of title topic
 section="example"
 announce $section
-echo "echo example, an example of echo"
-echo "$PWD is the current directory"
+echo "echo command example, an example of the echo command"
+echo "the current directory is : $PWD"
 
-# topic, next :
+# topic, array :
+section="array"
+announce $section
+echo "array init, how to save an array to a variable"
+echo "TODO"
 
