@@ -16,6 +16,7 @@
 
 ################################################################################
 
+# function declaration :
 clear
 announce() {
   local topic=${1:?must provide a topic argument}
