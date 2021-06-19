@@ -38,7 +38,7 @@ echo "the current directory is : $PWD"
 ################################################################################
 
 # topic, array :
-section="array"
+topic="array"
 announce $topic
 echo "array init, how to save an array to a variable"
 echo "TODO"
