@@ -9,8 +9,8 @@
 #	vim
 
 # system specific variables
-USER="username"
-APPFILE="/home/$USER/system/applications.txt"
+HOME="$(getent passwd "$USER" | awk -F ':' '{print $6}')"
+APPFILE="$HOME/system/applications.txt"
 
 clear
 echo "SCRIPT STARTED"
