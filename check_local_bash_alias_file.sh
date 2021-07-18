@@ -6,6 +6,16 @@
 #		    is copied to the local system
 # requirements : none
 
+exist(){
+  if [ -f "$1" ];then
+    echo "$1 exists"
+    echo "doing nothing"
+  else
+    echo "$1 does not exist on local"
+    echo "copying project aliase to $1"
+  fi
+}
+
 # set local paths
 path_home="$(getent passwd "$USER" | awk -F ':' '{print $6}')/"
 fn_alias_local=".bash_aliases"
@@ -19,11 +29,5 @@ path_alias_repo=$path_repo$fn_alias_repo
 echo "path to bash alias in repo = $path_alias_repo"
 
 # execute script function
-if [ -f "$path_alias_local" ];then
-	echo "$fn_alias_local exists on local"
-	echo "doing nothing"
-else
-	echo "$fn_alias_local does not exist on local"
-	echo "copying project alias to $fn_alias_local"
-fi
+exist "$path_alias_local"
 
