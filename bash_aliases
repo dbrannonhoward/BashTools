@@ -1,11 +1,11 @@
 ########################################X########################################
 #				  G L O B A L S					#
-# files										#
-this=$HOME".bash_aliases"							#
 # directories									#
 HOME="~/"									#
 PATH_BASH=$HOME"project_bash/"							#
 PATH_PY=$HOME"project_py/"							#
+# files										#
+this=$HOME".bash_aliases"							#
 #										#
 ########################################X########################################
 #				  A L I A S E S 				#
@@ -32,8 +32,8 @@ alias f="nemo ."								#
 alias e="exit"									#
 alias sreboot="systemctl reboot -i"						#
 # vim										#
-alias forgot="less "$this							#
-alias lazy="vim "$this								#
+alias forgot="less $this							#
+alias lazy="vim $this								#
 #				  A L I A S E S 				#
 ########################################X########################################
 #                 A U T O R U N  O N  N E W  T E R M I N A L			#
