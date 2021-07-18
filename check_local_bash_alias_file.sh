@@ -17,17 +17,17 @@ exist(){
 }
 
 # set local paths
-path_home="$(getent passwd "$USER" | awk -F ':' '{print $6}')/"
-fn_alias_local=".bash_aliases"
-path_alias_local=$path_home$fn_alias_local
-echo "path to bash alias on client = $path_alias_local"
+path_home="$(getent passwd "$USER" | awk -F ':' '{print $6}')"
+filename_of_local_bash_alias_file=".bash_aliases"
+path_to_local_bash_alias_file="$path_home/$filename_of_local_bash_alias_file"
+echo "path to bash alias on client = $path_to_local_bash_alias_file"
 
 # set repo paths
-path_repo="$PWD/"
-fn_alias_repo="bash_aliases"
-path_alias_repo=$path_repo$fn_alias_repo
-echo "path to bash alias in repo = $path_alias_repo"
+path_to_this_project="$PWD/"
+filename_of_repo_bash_alias_file="bash_aliases"
+path_to_repo_bash_alias_file=$path_to_this_project$filename_of_repo_bash_alias_file
+echo "path to bash alias in repo = $path_to_repo_bash_alias_file"
 
 # execute script function
-exist "$path_alias_local"
+exist "$path_to_local_bash_alias_file"
 
