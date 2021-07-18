@@ -1,7 +1,6 @@
 ########################################X########################################
 #				  G L O B A L S					#
 # directories									#
-HOME="~/"									#
 PATH_BASH=$HOME"project_bash/"							#
 PATH_PY=$HOME"project_py/"							#
 # files										#
