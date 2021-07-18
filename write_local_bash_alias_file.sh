@@ -8,8 +8,8 @@
 
 exist(){
   if [ -f "$1" ];then
-    echo "$1 exists"
-    echo "doing nothing"
+    echo "$1 exists, overwriting"
+    cp "$path_to_repo_bash_alias_file" "$path_to_local_bash_alias_file"
   else
     echo "$1 does not exist on local"
     echo "copying project alias to $1"
