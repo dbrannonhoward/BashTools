@@ -12,8 +12,8 @@ exist(){
     echo "doing nothing"
   else
     echo "$1 does not exist on local"
-    echo "copying project aliase to $1"
-    cp $path_to_repo_bash_alias_file $path_to_local_bash_alias_file
+    echo "copying project alias to $1"
+    cp "$path_to_repo_bash_alias_file" "$path_to_local_bash_alias_file"
   fi
 }
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # script function : install applications to a ubuntu-based 
-#		    distributin from a formatted text file
+#		    distribution from a formatted text file
 # requirements : a formatted text file
 # text file format : one application per line
 # text file example :

@@ -21,7 +21,7 @@ clear
 announce() {
   local topic=${1:?must provide a topic argument}
   echo -e "\n"
-  read -n 1 -p "the next topic is $topic, press enter to continue"
+  read -rn 1 -p "the next topic is $topic, press enter to continue"
 }
 
 ################################################################################
