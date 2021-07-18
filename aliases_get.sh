@@ -1,4 +1,10 @@
 #!/bin/bash
+# script function : check the system for the existence of
+#		    a bash aliases file, if it exists then
+#		    no action is taken. if it does not exist
+#		    the version of bash aliases in this repo
+#		    is copied to the local system
+# requirements : none
 
 # set local paths
 path_home="$(getent passwd "$USER" | awk -F ':' '{print $6}')/"
@@ -12,10 +18,12 @@ fn_alias_repo="bash_aliases"
 path_alias_repo=$path_repo$fn_alias_repo
 echo "path to bash alias in repo = $path_alias_repo"
 
-# perform get action
+# execute script function
 if [ -f "$path_alias_local" ];then
-	echo "$fn_alias_local exists on local, concat to repo"
-	# cat $fn_alias_local >> $fn_alias_repo
+	echo "$fn_alias_local exists on local"
+	echo "doing nothing"
 else
+	echo "$fn_alias_local does not exist on local"
 	echo "copying project alias to $fn_alias_local"
 fi
+
